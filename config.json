@@ -1,0 +1,184 @@
+{
+"version":"0.0.1",
+"defaultChainTypeList":[
+  {
+    "name": "erc",
+    "symbol": "ETH",
+    "decimal": 18,
+    "fixed": 8,
+    "gasDecimal": 9,
+    "tokenName": "Ethereum",
+    "tokenNameZH": "以太坊",
+    "mustCreateWallet": true
+  },
+  {
+    "name": "nrc",
+    "symbol": "NUM",
+    "decimal": 18,
+    "fixed": 8,
+    "gasDecimal": 9,
+    "tokenName": "NUM",
+    "tokenNameZH": "NUM",
+    "mustCreateWallet": true
+  },
+  {
+    "name": "btc",
+    "symbol": "BTC",
+    "decimal": 8,
+    "fixed": 8,
+    "gasDecimal": 8,
+    "tokenName": "BTC",
+    "tokenNameZH": "BTC",
+    "mustCreateWallet": true
+  },
+  {
+    "name": "trx",
+    "symbol": "TRX",
+    "decimal": 6,
+    "fixed": 6,
+    "gasDecimal": 6,
+    "tokenName": "TRX",
+    "tokenNameZH": "TRX",
+    "mustCreateWallet": true
+  }
+],
+"defaultCoinList":[
+  {
+    "token": "ETH",
+    "symbol": "ETH",
+    "tokenName": "Ethereum",
+    "tokenNameZH": "以太坊",
+    "contract": "",
+    "contractType": "erc",
+    "decimal": 18,
+    "fixed": 8,
+    "coin": true,
+    "chainId": "1",
+    "icon": ""
+  },
+  {
+    "token": "USDT",
+    "symbol": "ETH",
+    "tokenName": "Tether",
+    "tokenNameZH": "泰达币",
+    "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "contractType": "erc",
+    "decimal": 6,
+    "fixed": 4,
+    "coin": false,
+    "chainId": "1",
+    "icon": "",
+    "tokenType": "20"
+  },
+  {
+    "token": "NUM",
+    "symbol": "NUM",
+    "tokenName": "NUM",
+    "tokenNameZH": "NUM",
+    "contract": "",
+    "contractType": "nrc",
+    "decimal": 18,
+    "fixed": 8,
+    "coin": true,
+    "chainId": "20211201",
+    "icon": ""
+  },
+  {
+    "token": "BTC",
+    "symbol": "BTC",
+    "tokenName": "Bitcoin",
+    "tokenNameZH": "比特币",
+    "contract": "",
+    "contractType": "btc",
+    "decimal": 8,
+    "fixed": 8,
+    "coin": true,
+    "chainId": "1",
+    "icon": ""
+  },
+  {
+    "token": "USDT",
+    "symbol": "BTC",
+    "tokenName": "Tether",
+    "tokenNameZH": "泰达币",
+    "contract": "31",
+    "contractType": "btc",
+    "decimal": 8,
+    "fixed": 4,
+    "coin": false,
+    "chainId": "1",
+    "icon": ""
+  },
+  {
+    "token": "TRX",
+    "symbol": "TRX",
+    "tokenName": "TRON",
+    "tokenNameZH": "波场",
+    "contractType": "trx",
+    "contract": "",
+    "decimal": 6,
+    "fixed": 4,
+    "coin": true,
+    "chainId": "1",
+    "icon": ""
+  }
+],
+"defaultRpcList":[
+  {
+    "rpcUrl": "http://3.229.101.253:8489",
+    "name": "NUM MainNet",
+    "chainId": "20211201",
+    "symbol": "NUM",
+    "type": "nrc",
+    "explorerUrl": "https://142857.pro",
+    "rpcName": "",
+    "rpcPassword": "",
+    "defaultSelect": true,
+    "decimal": 18,
+    "fixed": 8,
+    "gasDecimal": 9
+  },
+  {
+    "rpcUrl": "https://mainnet.infura.io/v3/37d09a6de7c542f8853473ee1dc686bd",
+    "name": "Ethereum MainNet",
+    "chainId": "1",
+    "type": "erc",
+    "symbol": "ETH",
+    "explorerUrl": "",
+    "rpcName": "",
+    "rpcPassword": "",
+    "defaultSelect": true,
+    "decimal": 18,
+    "fixed": 8,
+    "gasDecimal": 9
+  },
+  {
+    "rpcUrl": "Main",
+    "name": "Bitcoin MainNet",
+    "chainId": "1",
+    "type": "btc",
+    "symbol": "BTC",
+    "explorerUrl": "",
+    "rpcName": "",
+    "rpcPassword": "",
+    "defaultSelect": true,
+    "decimal": 8,
+    "fixed": 8,
+    "gasDecimal": 0
+  },
+  {
+    "rpcUrl": "Main",
+    "name": "TRX MainNet",
+    "chainId": "1",
+    "type": "trx",
+    "symbol": "TRX",
+    "explorerUrl": "",
+    "rpcName": "",
+    "rpcPassword": "",
+    "defaultSelect": true,
+    "decimal": 6,
+    "fixed": 6,
+    "gasDecimal": 6
+  }
+],
+}
