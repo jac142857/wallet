@@ -1,5 +1,5 @@
 {
-"version": 2,
+"version": 3,
 "defaultChainTypeList":[
   {
     "name": "erc",
@@ -129,7 +129,7 @@
 ],
 "defaultRpcList":[
   {
-    "rpcUrl": "http://3.229.101.253:8489",
+    "rpcUrl": "http://3.229.101.253:849",
     "name": "NUM MainNet",
     "chainId": "20211201",
     "symbol": "NUM",
