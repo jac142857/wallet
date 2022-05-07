@@ -9,7 +9,8 @@
     "gasDecimal": 9,
     "tokenName": "Ethereum",
     "tokenNameZH": "以太坊",
-    "mustCreateWallet": true
+    "mustCreateWallet": true,
+    "defaultSelect":true
   },
   {
     "name": "nrc",
@@ -19,7 +20,8 @@
     "gasDecimal": 9,
     "tokenName": "NUM",
     "tokenNameZH": "NUM",
-    "mustCreateWallet": true
+    "mustCreateWallet": true,
+    "defaultSelect":false
   },
   {
     "name": "btc",
@@ -29,7 +31,8 @@
     "gasDecimal": 8,
     "tokenName": "BTC",
     "tokenNameZH": "BTC",
-    "mustCreateWallet": true
+    "mustCreateWallet": true,
+    "defaultSelect":false
   },
   {
     "name": "trx",
@@ -39,7 +42,8 @@
     "gasDecimal": 6,
     "tokenName": "TRX",
     "tokenNameZH": "TRX",
-    "mustCreateWallet": true
+    "mustCreateWallet": true,
+    "defaultSelect":false
   }
 ],
 "defaultCoinList":[
