@@ -129,7 +129,7 @@
 ],
 "defaultRpcList":[
   {
-    "rpcUrl": "http://3.229.101.253:849",
+    "rpcUrl": "http://3.229.101.253:8489",
     "name": "NUM MainNet",
     "chainId": "20211201",
     "symbol": "NUM",
