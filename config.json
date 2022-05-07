@@ -88,6 +88,19 @@
     "icon": ""
   },
   {
+    "token": "NUM",
+    "symbol": "NUM",
+    "tokenName": "NUM",
+    "tokenNameZH": "NUM",
+    "contract": "",
+    "contractType": "erc",
+    "decimal": 18,
+    "fixed": 8,
+    "coin": true,
+    "chainId": "20211201",
+    "icon": ""
+  },
+  {
     "token": "BTC",
     "symbol": "BTC",
     "tokenName": "Bitcoin",
