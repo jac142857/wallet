@@ -1,5 +1,5 @@
 {
-"version": 1,
+"version": 2,
 "defaultChainTypeList":[
   {
     "name": "erc",
@@ -134,6 +134,20 @@
     "chainId": "20211201",
     "symbol": "NUM",
     "type": "nrc",
+    "explorerUrl": "https://142857.pro",
+    "rpcName": "",
+    "rpcPassword": "",
+    "defaultSelect": true,
+    "decimal": 18,
+    "fixed": 8,
+    "gasDecimal": 9
+  },
+  {
+    "rpcUrl": "http://3.229.101.253:8489",
+    "name": "NUM MainNet",
+    "chainId": "20211201",
+    "symbol": "NUM",
+    "type": "erc",
     "explorerUrl": "https://142857.pro",
     "rpcName": "",
     "rpcPassword": "",
